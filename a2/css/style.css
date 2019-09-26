@@ -1,0 +1,205 @@
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+html, head, header, nav, body, .nav-seperator {
+    /* background-color: #C0C0C0; */
+    background: url("../media/background-space.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Parallax Start */
+
+.parallax #about-us, .parallax #pricing, .now-showing {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+    min-height: 100%;
+} 
+  
+.parallax #about-us {
+    background-color: #51585E;
+    color: #FFFFFF;
+    min-height: 100vh;
+}
+
+.container {
+    max-height: 100%;
+}
+
+.parallax #pricing {
+    position: relative;
+    background-image: url('../media/sectiontwo-parallax.jpg');
+    min-height: 100vh;
+}
+
+.now-showing {
+    background-color: #51585E;
+    color: #51585E;
+    min-height: 100vh;
+} 
+
+/* Parallax End */
+
+#header-logo {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-links {
+    position: sticky;
+}
+
+#nav-text {
+    color: #FFF7E0;
+}
+
+.nav-seperator {
+    height: 50px;
+}
+
+ul, li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section style start */
+section {
+    text-align: center;
+}
+
+.section-seperator {
+    opacity: 0.1;
+    height: 300px;
+}
+
+/* Section style end */
+
+/* Movie panel start */
+
+.container-fluid {
+   margin: 0px auto;
+}
+
+
+/* Add position relative to the parent container */
+.movie-panel {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 250px;
+}
+
+.movie-poster {
+    position: absolute;
+    margin: 25px;
+    width: 110px;
+    height: 200px;
+}
+
+.movie-title {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.movie-times {
+    position: absolute;
+    top: 50px;
+    right: 35px;
+}
+
+/* Movie panel end */
+
+/* Synopsis start */
+
+.synopsis-panel {
+    position: relative;
+    background-color: #51585E;
+    width: 100%;
+    min-height: 100vh;
+    border-style: solid;
+}
+
+.synopsis-title {
+    position: absolute;
+    color: #FFFFFF;
+    top: 100px;
+    left: 30px;
+}
+
+.synopsis-description {
+    position: absolute;
+    color: #FFFFFF;
+    text-align: left;
+    top: 150px;
+    left: 30px;
+}
+
+.synopsis-trailer {
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}
+
+.synopsis-booking {
+    position: absolute;
+    color: #FFFFFF;
+    bottom: 150px;
+    left: 30px;
+}
+
+.synopsis-booking-buttons {
+    position: absolute;
+    border-style: solid;
+    bottom: 75px;
+}
+
+/* Synopsis end */
+
+/* Bookings start */
+
+.bookings-panel {
+    border-style: dotted;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Bookings end */
+
+/* Footer start */
+
+footer {
+    border-radius: 100px;
+}
+
+.footer-seperator {
+    height: 50px;
+}
+
+/* Footer end */
+
