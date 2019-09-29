@@ -101,10 +101,12 @@
                     </table>
                 </section>
                 <div class="section-seperator"></div>
+                <script src="updatesynopsis.js"></script>
                 <section class="now-showing">
                     <a name="now-showing"><h1 style="color: #FFFFFF;">Now Showing</h1></a>
                     <div class="row">
                         <div class="col-1">
+                            <a onclick="updateEndgame();">Endgame</a>
                             <div class="movie-panel">
                                 <div class="movie-poster">
                                     <img src="media/movie-poster-avengers.jpg"/>
@@ -125,6 +127,7 @@
                             </div>
                         </div>
                         <div class="col-2">
+                            <a onclick="updateWedding();">Wedding</a>
                             <div class="movie-panel">
                                 <div class="movie-poster">
                                     <img src="media/movie-poster-wedding.jpg"/>
@@ -145,9 +148,9 @@
                             </div>
                         </div>
                     </div>
-                        
                     <div class="row">
-                    <div class="col-sm-6">
+                        <div class="col-3">
+                            <a onclick="updateDumbo();">Dumbo</a>
                             <div class="movie-panel">
                                 <div class="movie-poster">
                                     <img src="media/movie-poster-dumbo.jpg"/>
@@ -167,7 +170,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-4">
+                            <a onclick="updatePrince();">Prince</a>
                             <div class="movie-panel">
                                 <div class="movie-poster">
                                     <img src="media/movie-poster-prince.jpg"/>
@@ -230,8 +234,9 @@
                 <section id="bookings">
                     <div class="bookings-panel">
                         <a name="bookings"><h1>Bookings</h1></a>
-                        <br/><br/>
-                        <h2>Under construction</h2>
+                        <form>
+                            <div class="form-movie-title">
+                        </form
                     </div>
                 </div>
             </main>
