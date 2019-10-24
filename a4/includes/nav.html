@@ -1,0 +1,45 @@
+<!-- <nav id="navbar">
+    <ul>
+        <i class="fas fa-info" style="color:#24282A;"></i>
+        <a class="nav-links" href="#about" style="color:#24282A;">About Us</a>
+        <i class="fas fa-dollar-sign" style="color:#24282A;"></i>
+        <a class="nav-links" href="#pricing" style="color:#24282A;">Prices</a>
+        <i class="fas fa-tv" style="color:#24282A;"></i>
+        <a class="nav-links" href="#now-showing" style="color:#24282A;">Now Showing</a>
+        <i class="fas fa-video" style="color:#24282A;"></i>
+        <a class="nav-links" href="#synopsis" style="color:#24282A;">Synopsis</a>
+        <i class="fas fa-book" style="color:#24282A;"></i>
+        <a class="nav-links" href="#bookings" style="color:#24282A;">Bookings</a>
+    </ul>
+</nav> -->
+
+<div id="navbar">
+    <a href="#about">About Us</a>
+    <a href="#pricing">Prices</a>
+    <a href="#now-showing">Now Showing</a>
+    <a href="#synopsis">Synopsis</a>
+    <a href="#bookings">Booking</a>
+</div>
+
+<script type="text/javascript">
+
+    window.onscroll = function() {
+        myFunction()
+    };
+
+    // Get the navbar
+    var navbar = document.getElementById("navbar");
+
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+
+</script>
